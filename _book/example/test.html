@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>LaserCache</p>
+    <script src="../release/bundle.js"></script>
+    <script>
+      var LC=window.LaserCache;
+      var cache=new LC();
+      cache.set('a',100);
+      alert(cache.get('a'));
+    </script>
+</body>
+</html>
